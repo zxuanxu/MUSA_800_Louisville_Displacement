@@ -93,11 +93,11 @@ If everything went well, you will have a `Git` tab on your "Environments, Histor
 
 ![git_tab](images/5_git_tab.jpg)
 
-#### Step 7 - Make Changes and `Commit`!
+#### Step 6 - Make Changes and `Commit`!
 
 The two main git operations we will use are `commit` and `push`. `Commit` means to save changes in files to a special git database on your local hard drive. The the `push` command communicates these changes with GitHub, lets you know if all the files sync up, and if all is clear it uploads the changed files. This is how the version control aspect of GitHub work. 
 
-Open the `README.md` from your repo/project in Rstudio and start making some changes. This file is written in markdown and will be the landing page for your portfolio repo from the GitHub point of view (the back door if you will). Use the same types of markdown syntax as you do with Rmarkdown, but note that R code blocks will not be evaluated in a basic *.md document.
+Open the `README.md` from your repo/project in Rstudio and start making some changes. This file is written in markdown and will be the landing page for your project repo from the GitHub point of view. Use the same types of markdown syntax as you do with Rmarkdown, but note that R code blocks will not be evaluated in a basic *.md document.
 
 
 ![README edit](images/README_rstudio.jpg)
@@ -113,35 +113,10 @@ Once committed, click the `Push` button to send it to the server. You will likel
 
 #### Step 8 - Go to your GitHub repo
 
-If all went well in step 7, you should be able to go to your GitHub repo and see the new changes to the `README` after you refresh your browser. The `README` acts as a advertisement to your repo. Since this repo is more likely to be view from the web side through your github.io address, the README is more to let people know that this is your portfolio and they should go to the github.io address to see it. However, seeing changes here will confirm that everything is working.
+If all went well in step 7, you should be able to go to your GitHub repo and see the new changes to the `README` after you refresh your browser. The `README` will be a living progress report for your project. Remeber, that this is a live repo, so *do not* put any sensitive data or material in this space!
 
 ![README on GitHub](images/README_gh.jpg)
 
-
-#### Step 9 - Edit `_config.yml`
-
-The next step is to update some of your details for the actual portfolio page. Your name, occupation, social media links and such are stored in the `_config.yml` file in your repo. Open that file in Rstudio, make the changes, save and then commit your changes on the `Git` tab.
-
-![_config.yml](images/config.jpg)
-
-#### Step 10 - Add Portfolio Content 
-
-At this point, you can start collecting the links, HTML markdowns, and documents you want in your portfolio. This will differ for each person, but any knit markdowns (in HTML or PDF) that you want to use should be placed in a folder in your `<<username>>.github.io` folder on your local hard rive. This is the folder that was created by Rstudio when you cloned your GitHub repo. You can add folders to that folder, I created a folder called `project_markdown`, but you can call it what you want. Whatever files you put in this folder, you will `commit` and `push` to your GitHub repo on the server.
-
-Your portfolio can also link to other content you have on the web or other repos on GitHub. The next step is where you will make the edits to your portfolio webpage.
-
-#### Step 11 - Edit `index.md` to Build Your Portfolio
-
-The final step is to edit the `index.md` file to layout the content in your portfolio.  The `index.md` file is a simple markdown file that will be converted to a static html file by the GitHub server and view-able at your github.io address. This file is (very purposefully) simple and only require a bit of tweaking to link to your content. Additionally, there is a `sample_page.md` file that can serve as a template for a project specific page in your portfolio. Out on the web, there are a number of more interesting and advanced templates in either markdown or HTML. Feel free to experiment
-
-For this exercise, you can simply edit the links under "Category 1" to point to either the files you have added to your folder (see example in the image below for Philadelphia Tax Project), link out to content on the web, or build individual project pages using the `sample_page.md` template. Using the basics of markdown, you can build out this page however you like!
-
-![index.html](images/index.jpg)
-
-After a few changes, make sure you `commit` and `push` your changes to the server. Then go to your <<username>>.github.io page and check it out!
-
-![github.io Portfolio](images/portfolio.jpg)
-
 #### Step 11 - Keep it up to date!
 
-Continue to iterate the above steps and add to your portfolio. Experiment with the markdown, content presentation, and themes to make it uniquely you.
+Continue to iterate the above steps and add to your project `README` as you move through the stages of your project.
