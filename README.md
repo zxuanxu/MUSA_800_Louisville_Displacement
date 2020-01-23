@@ -1,6 +1,6 @@
 # MUSA 800 Project Template
 
-# Project Name: Forecasting gentrification in Louisville, KY
+# Project Name: Forecasting displacement in Louisville, KY
 
 
 # Project Team:
@@ -9,7 +9,7 @@
 * Team Member 2: Madhura Gurav
 * Team Member 3: Jason Schunkewitz
 
-# Use Case:
+# Use Case: 
 
 # Data Wrangling:
 
