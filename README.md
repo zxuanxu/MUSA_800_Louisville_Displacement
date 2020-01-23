@@ -9,7 +9,7 @@
 * Team Member 2
 * Team Member 3
 
-# Use Case
+# Use Case:
 
 # Data Wrangling:
 
@@ -17,6 +17,6 @@
 
 # Web Visualization:
 
-# Model Development & Validation
+# Model Development & Validation:
 
-# Markdown Development
+# Markdown Development:
