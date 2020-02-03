@@ -13,7 +13,14 @@
 
 The aim is to develop an effective model to help identify neighborhoods at high risk of displacement and try to help the local government and NPOs to leverage their resources and finances when investing in these neighborhoods.
 
-# Data Wrangling:
+# Data Wrangling:  
+## Data Sources:  
+1. Historic Home Sales: Property Value Assessment  
+2. Historic Permits: [Open Data Louisville](https://data.louisvilleky.gov/dataset/all-permits)  
+3. Property Foreclosures: [Open Data Louisville](https://data.louisvilleky.gov/dataset/property-foreclosures)  
+4. Eviction: [The Eviction Lab](https://data-downloads.evictionlab.org/)  
+5. ACS 5-year Estimates & Decennial Census, 1990 - 2018  
+6. Demolitions: [Open Data Louisville](https://data.louisvilleky.gov/dataset/jefferson-county-demolitions)   
 
 # Exploratory Data Analysis:
 
