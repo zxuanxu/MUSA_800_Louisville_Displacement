@@ -15,7 +15,6 @@ output: html_document
 * Team Member 1: Zixuan Xu
 * Team Member 2: Madhura Gurav
 * Team Member 3: Jason Schunkewitz
-Team Member 4: Test
 
 # Use Case: 
 
