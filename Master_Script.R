@@ -36,8 +36,8 @@ q5 <- function(variable) {as.factor(ntile(variable, 5))}
 ##### +Themes####
 mapTheme <- function(base_size = 12) {
   theme(
-    text = element_text( color = "black"),
-    plot.title = element_text(size = 14,colour = "black"),
+    text = element_text( color = "#2D3047"),
+    plot.title = element_text(size = 14,colour = "#2D3047"),
     plot.subtitle=element_text(face="italic"),
     plot.caption=element_text(hjust=1),
     axis.ticks = element_blank(),
@@ -46,28 +46,28 @@ mapTheme <- function(base_size = 12) {
     axis.title.x = element_blank(),
     axis.title.y = element_blank(),
     panel.grid.minor = element_blank(),
-    panel.border = element_rect(colour = "black", fill=NA, size=1)
+    panel.border = element_rect(colour = "#2D3047", fill=NA, size=1)
   )
 }
 plotTheme <- function(base_size = 12) {
   theme(
-    text = element_text( color = "black"),
-    plot.title = element_text(size = 14,colour = "black"),
+    text = element_text( color = "#2D3047"),
+    plot.title = element_text(size = 14,colour = "#2D3047"),
     plot.subtitle = element_text(face="italic"),
     plot.caption = element_text(hjust=1),
     axis.ticks = element_blank(),
     panel.background = element_blank(),
-    panel.grid.major = element_line("grey80", size = 0.1),
+    panel.grid.major = element_line("#2D3047", size = 0.1),
     panel.grid.minor = element_blank(),
-    panel.border = element_rect(colour = "black", fill=NA, size=2),
-    strip.background = element_rect(fill = "grey80", color = "white"),
+    panel.border = element_rect(colour = "#2D3047", fill=NA, size=2),
+    strip.background = element_rect(fill = "#2D3047", color = "white"),
     strip.text = element_text(size=12),
     axis.title = element_text(size=12),
     axis.text = element_text(size=10),
     plot.background = element_blank(),
     legend.background = element_blank(),
-    legend.title = element_text(colour = "black", face = "italic"),
-    legend.text = element_text(colour = "black", face = "italic"),
+    legend.title = element_text(colour = "#2D3047", face = "italic"),
+    legend.text = element_text(colour = "#2D3047", face = "italic"),
     strip.text.x = element_text(size = 14)
   )
 }
